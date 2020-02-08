@@ -1,0 +1,92 @@
+#
+# Translator: @SimplyRin_
+# Language: English
+#
+Language: English
+
+Ingame_Only: "&cThis command can only be performed by a player in game!"
+No_Permission: "&cPermission denied!"
+
+# Exceptions
+Exceptions:
+  Not-Joined: "&cYou're not in a party!"
+  Cant-Invite-Self: "&cYou can't invite yourself to a party!"
+  Disable-Invite: "%targetDisplayName &chas turned off party invitation acceptance."
+  Already:
+    In: "%targetDisplayName &cis already in your party!"
+    Joined: "&cThis player is already joined the party!"
+    Invited: "&cYou have already invited %targetDisplayName&c!"
+  Havent-Received-Invite: "&cYou haven't been invited to a party, or the invitation has expired!"
+  Your-Self-Invite: "&cYou can't add yourself to a party!"
+  Cant-Remove-Your-Self: "&cYou can't remove yourself! Use /party disaband instead!"
+  Isnt-In-Your-Party: "%targetDisplayName &cisn't in your party! Invite them first!"
+
+# Commands
+No-Joined-The-Party: "&cYou must be in a party to use this command!"
+Cant-Find: "&cCan't find a player by the name of '%name'"
+
+Invite:
+  Usage: "&cUsage: /party invite <player>"
+  All-Left: "&eThe party was disbanded because all the invitations have expired and all the members have left."
+  Request:
+    Sent:
+      Invited: "%displayName &einvited %targetDisplayName &eto the party!"
+      60-Seconds: "&eThey have 60 seconds to accept it!"
+    Click-here:
+      Here: "&6Click here &eto join! You have 60 seconds to accept."
+      Command: "Click to perform\n/party accept %name"
+      Receive: "%displayName &ehas invited you to join their party!"
+    Expired:
+      Your-Self: "&eThe party invitation to %targetDisplayName &ehas expired."
+      Target: "&eThe party invitation from %displayName &ehas expired."
+
+Leave:
+  You-Left: "&aYou left the party!"
+  Player-Left: "%displayName &eleft the party."
+
+List:
+  Party-List: "&aParty members (%size):"
+
+Remove: # and Kick
+  Usage: "&cUsage: /party remove <player>"
+  Member-Removed: "%targetDisplayName &ahas been removed from your party!"
+  Me-Removed: "&eYou have been kicked from the party by %displayName&e!"
+
+Warp:
+  Summon: "&eThe party leader %displayName &esummoned you to their server."
+
+Accept:
+  Usage: "&cUsage: /party accept <player>"
+  You-Joined: "&aYou joined %targetDisplayName&a's party!"
+  Joined: "%displayName &ajoined the party!"
+
+Toggle:
+  Disabled: "&eThe invitation acceptance is now &cdisabled&e."
+  Enabled: "&eThe invitation acceptance is now &aenabled&e."
+
+Disband:
+  Must-Leader: "&cYou must be the Party Leader to use that command!"
+  Disbanded: "%displayName &ehas disbanded the party!"
+
+Chat:
+  Usage: "&cUsage: /party chat <message>"
+  Prefix: "&9Party >"
+
+Lang:
+  Usage: "&cUsage: /party lang <language>"
+  Available: "&bAvailable languages:"
+  Update: "&aCurrent language: &e%lang"
+
+Help:
+  Command: "&aParty Commands:"
+  Help: "&e/party help &7- &bTo print this help message."
+  Lang: "&e/party lang <language> &7- &bTo change the displayed language."
+  Chat: "&e/party chat <message> &7- &bTo send a message to the party members."
+  Invite: "&e/party invite <player> &7- &bTo invite a player to your party."
+  Leave: "&e/party leave &7- &bTo leave the current party."
+  List: "&e/party list &7- &bTo list the members of your party."
+  Remove: "&e/party remove <player> &7- &bTo remove a player from your party."
+  Warp: "&e/party warp &7- &bTo teleport all the members of your party to your server."
+  Accept: "&e/party accept <player> &7- &bTo accept the party invitation from a player."
+  Toggle: "&e/party toggle &7- &bTo toggle the acceptance of invitations."
+  Disband: "&e/party disband &7- &bTo disband your party."

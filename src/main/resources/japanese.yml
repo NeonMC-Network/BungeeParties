@@ -1,0 +1,76 @@
+#
+# Translator: @SimplyRin_
+# Language: Japanese
+#
+Language: Japanese
+Ingame_Only: "&cこのコマンドはゲーム内からのみ使用できます。"
+No_Permission: "&cあなたはこのコマンドにアクセスする権利がありません。"
+Exceptions:
+  Not-Joined: "&cあなたはパーティーに参加していません！"
+  Cant-Invite-Self: "&cあなたはあなた自身を招待することができません。"
+  Disable-Invite: "%targetDisplayName &cはパーティーの招待を無効にしています。"
+  Already:
+    In: "%targetDisplayName &cは既にあなたのパーティーに参加しています。"
+    Joined: "&cこのプレイヤーはすでにパーティーに参加しています！"
+    Invited: "&cあなたは既に %targetDisplayName &cを招待しています！"
+  Havent-Received-Invite: "&cあなたはパーティーに招待されていないか、招待の有効期限が切れています。"
+  Your-Self-Invite: "&cあなたはあなた自身に招待を送ることができません！"
+  Cant-Remove-Your-Self: "&cあなた自身を削除することはできません！代わりに /party disaband を使用してください！"
+  Isnt-In-Your-Party: "%targetDisplayName &cはあなたのパーティーに参加していません！招待してください！"
+No-Joined-The-Party: "&cこのコマンドを使用するには、パーティーに参加している必要があります！"
+Cant-Find: "&c'%name'の名前でプレイヤーを見つけることができませんでした。"
+Invite:
+  Usage: "&c使用方法: '/party invite <プレイヤー>'"
+  All-Left: "&eすべての招待状の有効期限が切れ、全員が退出したため、パーティーは解散されました。"
+  Request:
+    Sent:
+      Invited: "%displayName &eは %targetDisplayName &eをパーティーに招待しました"
+      60-Seconds: "&eプレイヤーは60秒の間招待を受け入れることができます！"
+    Click-here:
+      Here: "&6ここをクリック &eして参加してください！あなたは60秒間受け入れます。"
+      Command: "クリックすると下記のコマンドが実行されます\n/party accept %name"
+      Receive: "%displayName &eはパーティーに参加するようにあなたを招待しました！"
+    Expired:
+      Your-Self: "&e%targetDisplayName &eに招待された参加申請は期限切れです。"
+      Target: "&e%displayName &eからのパーティー招待状の有効期限が切れました。"
+Leave:
+  You-Left: "&aあなたはパーティーを退出しました！"
+  Player-Left: "%displayName &eがパーティーを退出しました"
+List:
+  Party-List: "&aパーティーメンバー (%size):"
+Remove:
+  Usage: "&c使用方法: /party remove <プレイヤー>"
+  Member-Removed: "&eあなたのパーティーから %targetDisplayName &aがキックされました。"
+  Me-Removed: "&eあなたは %displayName &eによってパーティーからキックされました！"
+Warp:
+  Summon: "&eパーティーリーダーの %displayName &eがあなたをサーバーに転送しました。"
+Accept:
+  Usage: "&c使用方法: /party accept <プレイヤー>"
+  You-Joined: "&aあなたは %targetDisplayName &aのパーティーに参加しました！"
+  Joined: "%displayName &aがパーティーに参加しました。"
+Toggle:
+  Disabled: "&eパーティーの招待受付が &c無効 &eになりました"
+  Enabled: "&eパーティーの招待受付が &aEnabled &eになりました"
+Disband:
+  Must-Leader: "&cこのコマンドを使用するにはパーティーリーダーでなければなりません！"
+  Disbanded: "%displayName &eはパーティーを解散させました！"
+Chat:
+  Usage: "&c使用方法: /party chat <メッセージ>"
+  Prefix: "&9パーティー >"
+Lang:
+  Usage: "&c使用方法: /party lang <言語>"
+  Available: "&b現在利用可能な言語:"
+  Update: "&a選択した言語: &e%lang"
+Help:
+  Command: "&aパーティーコマンド:"
+  Help: "&e/party help &7- &bこのヘルプメッセージを表示します。"
+  Lang: "&e/party lang &7- &b表示される言語を変更する。"
+  Chat: "&e/party chat &7- &bパーティメンバーにメッセージを送信する。"
+  Invite: "&e/party invite &7- &bあなたのパーティーにプレイヤーを招待する。"
+  Leave: "&e/party leave &7- &b現在のパーティを退出する。"
+  List: "&e/party list &7- &bパーティーのメンバーを一覧表示します。"
+  Remove: "&e/party remove &7- &bパーティーからプレイヤーを削除する。"
+  Warp: "&e/party warp &7- &bパーティーのメンバーをサーバーに移動する。"
+  Accept: "&e/party accept &7- &bプレーヤーからのパーティー招待を受け入れる。"
+  Toggle: "&e/party toggle &7- &b招待の受諾を切り替える。"
+  Disband: "&e/party disband &7- &bパーティーを解散する。"

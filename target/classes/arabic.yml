@@ -1,0 +1,76 @@
+#
+# Translator: IbrahemAlobeidi
+# Language: Arabic
+#
+Language: Arabic
+Ingame_Only: "&cهذا الأمر متاح فقط في داخل اللعبة."
+No_Permission: "&c!ليس لديك الصلاحية للوصول الى هذا الأمر"
+Exceptions:
+  Not-Joined: "&cانت لست في المجموعة!"
+  Cant-Invite-Self: "&cلا يمكنك دعوة نفسك الى مجموعتك!"
+  Disable-Invite: "%targetDisplayName &cأوقف طلب الأضافة الى المجموعة."
+  Already:
+    In: "%targetDisplayName &c بالفعل في مجموعتك!"
+    Joined: "&cبالفعل قد دخل الى مجموعنك!"
+    Invited: "&cلقد قمت بالفعل بدعوة الى المجموعة %targetDisplayName&c!"
+  Havent-Received-Invite: "&cلم يتم دعوتك الى المجموعة, او نفذ وقت الدعوة!"
+  Your-Self-Invite: "&cلا يمكنك دعوة نفسك الى مجموعتك!"
+  Cant-Remove-Your-Self: "&cلا يمكنك حذف نفسك من مجموعتك! أستخدم /party disaband لحذف مجموعتك!"
+  Isnt-In-Your-Party: "%targetDisplayName &cليس في مجموعتك! قم بدعوته!"
+No-Joined-The-Party: "&cيجب ان تكون في مجموعة لأستخدام هذا الأمر!"
+Cant-Find: "&c لايمكن العثور على شخص في هذا الأسم! '%name'"
+Invite:
+  Usage: "&cأستخدام خاطئ! /party invite <أسم اللاعب>"
+  All-Left: "&eتم حذف مجموعتك بسبب خروج جميع اللاعبين او نفاذ وقت الدعوات الى مجموعتك."
+  Request:
+    Sent:
+      Invited: "%displayName &eدعوت %targetDisplayName &eالى مجموعتك!"
+      60-Seconds: "&eلديه 60 ثانية للموافقة على الطلب!"
+    Click-here:
+      Here: "&6 أضغط هنا &eلدخول المجموعة! لديك 60 ثانية فقط للموافقة على الدعوة."
+      Command: "أضغط هنا run\n/party للموافقة على طلب %name"
+      Receive: "%displayName &eأرسل اليك دعوة للدخول الى مجموعته!"
+    Expired:
+      Your-Self: "&eالدعوة المرسلة الى %targetDisplayName &eقد أنتهت مدتها."
+      Target: "&eطلب الأنضمام الى مجموعة %displayName &eقد أنتهى."
+Leave:
+  You-Left: "&aلقد خرجت من المجموعة!"
+  Player-Left: "%displayName &eخرج من المجموعة."
+List:
+  Party-List: "&aقائمة أعضاء المجموعة (%size):"
+Remove:
+  Usage: "&cأستخدام خاطئ! /party remove <أسم اللاعب>"
+  Member-Removed: "%targetDisplayName &aتم حذفه من مجموعتك!"
+  Me-Removed: "&eتم حذفك من المجموعة من قبل %displayName&e!"
+Warp:
+  Summon: "&eقائد المجموعة %displayName &eنقلك الى السيرفر الحالي."
+Accept:
+  Usage: "&cأستخدام خاطئ! /party accept <أسم اللاعب>"
+  You-Joined: "&لقد أنضممت %targetDisplayName&a's الى مجموعة!"
+  Joined: "%displayName &a أنضم الى الفريق!"
+Toggle:
+  Disabled: "&eتم أيقاف طلبات الأنضمام &cDisabled&e."
+  Enabled: "&eتم تفعيل طلبات الأنضمام &aEnabled&e."
+Disband:
+  Must-Leader: "&cيجب ان تكون قائد المجموعة لأستخدام هذا الأمر!"
+  Disbanded: "%displayName &eتم حذف المجموعة!"
+Chat:
+  Usage: "&cInvalid usage! /party chat <الرسالة>"
+  Prefix: "&9مجموعة >"
+Lang:
+  Usage: "&cInvalid usage! /party lang <اللغة>"
+  Available: "&bاللغات المتوفرة حالياً:"
+  Update: "&aاللغة المختارة: &e%lang"
+Help:
+  Command: "&aأوامر المجموعة:"
+  Help: "&e/party help &7- &bأوامر المساعدة"
+  Lang: "&e/party lang &7- &bتغيير اللغة"
+  Chat: "&e/party chat &7- &bارسال رسالة الى عضو المجموعة"
+  Invite: "&e/party invite &7- &b أرسال طلب أنضمام الى مجموعتك"
+  Leave: "&e/party leave &7- &bالخروج من المجموعة الحالية"
+  List: "&e/party list &7- &bقائمة أعضاء المجموعة"
+  Remove: "&e/party remove &7- &bأزالة اللاعب من المجموعة"
+  Warp: "&e/party warp &7- &bنقل أعضاء المجموعة الى السيرفر الحالي"
+  Accept: "&e/party accept &7- &bالموافقة على طلب الأنضمام "
+  Toggle: "&e/party toggle &7- &bحالة الموافقة على طلبات الأنضمام."
+  Disband: "&e/party disband &7- &bحذف المجموعة"
